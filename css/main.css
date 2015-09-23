@@ -1,0 +1,251 @@
+@font-face {
+	font-family: KongXi;
+	src: url(KongXi.otf);
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url(HelveticaNeue-UltraLight.otf);
+}
+/*
+html, body {
+	font-family: Helvetica, Arial, "微軟正黑體", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+	background-color: #8fbc8f;
+	color: black;
+	height: 100%;
+}
+
+h1 {
+	font-family: KongXi;
+	color: #696969;
+}
+*/
+.page {
+	min-height: 540px;
+	height: 100%;
+	position: relative;
+}
+
+@media (min-width: 1200px) {
+	.center {
+		position: absolute;
+		width: 1170px;
+		height: 220px;
+		margin-top: -150px;
+		margin-left: -585px;
+		top: 50%;
+		left: 50%;
+	}
+
+	#info number{
+		font-size: 48px;
+	}
+
+	h1 br {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.center {
+		position: absolute;
+		width: 970px;
+		height: 220px;
+		margin-top: -150px;
+		margin-left: -485px;
+		top: 50%;
+		left: 50%;
+	}
+
+	#info number{
+		font-size: 48px;
+	}
+
+	h1 br {
+		display: none;
+	}
+}
+
+@media (min-width: 758px) {
+	.center {
+		position: absolute;
+		width: 1000px;
+		height: 250px;
+		margin-top: -150px;
+		margin-left: -500px;
+		top: 50%;
+		left: 50%;
+	}
+
+	#info number{
+		font-size: 48px;
+	}
+
+	h1 br {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.center {
+		position: absolute;
+		width: 80%;
+		height: 550px;
+		margin-top: -275px;
+		margin-left: -40%;
+		top: 50%;
+		left: 50%;
+	}
+
+	#downMessage {
+		display: none;
+	}
+
+	#info number{
+		font-size: 36px;a
+	}
+
+	h1 br {
+		display: none;
+	}
+}
+
+@media (max-width: 550px) {
+	h1 br {
+		display: block;
+	}
+}
+
+#info {
+	font-family: KongXi, HelveticaNeue;
+	text-align: center;
+	font-size: 18px;
+}
+
+#info number{
+	font-family: HelveticaNeue;
+}
+
+#results {
+	color: black;
+}
+
+#results number {
+	font-size: 36px;
+}
+
+#info .well {
+	padding: 0px 0px 0px 0px;
+}
+
+#postCount {
+	background-color: #673AB7;
+	color: white;
+	padding: 20px 20px 20px 20px;
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+#likeCount {
+	background-color: #3F51B5;
+	color: white;
+	padding: 20px 0px 20px 0px;
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+#commentCount {
+	background-color: #009688;
+	color: white;
+	padding: 20px 20px 20px 20px;
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+#rank {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#results a:link{
+	color:#263238;
+}
+
+#results a:visited{
+	color:#263238;
+}
+
+#results a:hover{
+	color:#263238;
+}
+
+#results a:active{
+	color:#263238;
+}
+
+#message {
+	font-size: 18px;
+}
+
+#likeInfo {
+	font-size: 18px;
+}
+
+
+.fbbox{background: url("http://a.imageshack.us/img525/9882/47256382.png") no-repeat scroll left center transparent !important;display: block;float: right;height: 270px;padding: 0 5px 0 46px;width: 245px;z-index: 99999;position:fixed;right:-250px;top:20%;}
+.fbbox div{border:none;position:relative;display:block;}
+.fbbox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 6px;text-align: right;z-index: 99999;}
+.fbbox span a{color: #808080;text-decoration:none;}
+.fbbox span a:hover{text-decoration:underline;}
+
+
+.fb-share-button { 
+    width: 100px; 
+}
+.fb-share-button span, 
+.fb-share-button iframe {
+    width: 100px! important;
+    height: 20px! important;
+}
+
+.left-bottom-corner {
+position: fixed;
+bottom: 15px;
+left: -15;
+z-index: 93000;
+
+	}
+
+/*
+.left-bottom-corner div {
+margin: 0 auto ;
+}
+*/
+
+.main-menu .menu-item a {
+position: relative;
+top: 0;
+display: block;
+font-size: 1em;
+line-height: 28px;
+background: #8fbe3e;
+width: 100%;
+padding: 1em 0;
+text-indent: 0;
+color: #fff;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: white;
+        border-color: white;
+	}
